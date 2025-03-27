@@ -1,3 +1,4 @@
+
 # LangChain Core
 langchain
 langchain-core
@@ -24,3 +25,17 @@ python-dotenv
 # Machine Learning Utilities
 numpy
 scikit-learn
+
+
+
+
+
+
+streamlit
+streamlit_chat
+langchain
+sentence_transformers
+openai
+unstructured
+unstructured[local-inference]
+pinecone
