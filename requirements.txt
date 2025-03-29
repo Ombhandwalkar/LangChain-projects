@@ -23,7 +23,7 @@ huggingface-hub
 python-dotenv
 
 # Machine Learning Utilities
-numpy
+#numpy
 scikit-learn
 
 
@@ -52,3 +52,15 @@ langchain_chroma
 sentence_transformers
 fastapi
 uvicorn
+
+
+
+langchain
+langchain-openai
+langchain-core
+langchain_community
+docx2txt
+pypdf
+langchain_chroma
+python-multipart
+streamlit
