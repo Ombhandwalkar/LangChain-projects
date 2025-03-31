@@ -20,9 +20,6 @@ from langchain.agents.agent_toolkits import(
 st.title('🦜🔗 PDF-Chat: Interact with Your PDFs in a Conversational Way')
 st.subheader('Load your PDF, ask questions, and receive answers directly from the document.')
 
-#image=Image.open('PDF-Chat App.png')
-#st.image(image)
-
 st.subheader('Upload Your PDF')
 uploaded_file=st.file_uploader('',type=(['pdf',"tsv","csv","txt","tab","xlsx","xls"]))
 

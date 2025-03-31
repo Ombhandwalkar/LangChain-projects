@@ -27,6 +27,17 @@ python-dotenv
 scikit-learn
 
 
+streamlit
+openai
+sentence-transformers
+pinecone-client
+BeautifulSoup4
+genai
+google
+Google
+Gemini
+generativeai
+
 
 
 
