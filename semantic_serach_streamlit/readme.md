@@ -48,7 +48,7 @@ By leveraging **sentence-transformers, Pinecone vector database, and generative 
 ## ⚡ How to Use?
 1️⃣ **Run the Streamlit App**
    ```bash
-   streamlit run app.py
+   streamlit run main.py
    ```
 2️⃣ **Choose a Task:**
    - **Upload a URL** → The system will process and store the extracted information.
