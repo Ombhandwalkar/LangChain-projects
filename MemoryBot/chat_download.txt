@@ -1,0 +1,20 @@
+How did he die ?
+Srinivasa Ramanujan died on April 26, 1920, at the young age of 32.  The cause of his death was officially listed as hepatic amoebiasis, a severe liver infection likely caused by amoebic dysentery.  While in England, he suffered from health problems, possibly exacerbated by the climate and dietary differences, and his health never fully recovered after his return to India.
+Is there any movie created on him?
+Yes, there is a movie about Srinivasa Ramanujan.  The most well-known is *The Man Who Knew Infinity* (2015), starring Dev Patel as Ramanujan and Jeremy Irons as G.H. Hardy.  It depicts his life and his collaboration with Hardy at Cambridge.
+what did he invent ?
+Ramanujan didn't invent things in the way an inventor creates a new machine or device.  His contributions were primarily in the realm of pure mathematics, discovering and formulating new theorems, identities, and formulas.  He didn't invent a specific technology or process, but rather significantly advanced our understanding of mathematics itself.  His work involved uncovering deep relationships and patterns within numbers and functions, leading to breakthroughs in areas like:
+
+* **Partition theory:**  He made significant advancements in understanding the number of ways a whole number can be expressed as a sum of positive integers.
+* **Infinite series:** He developed remarkable formulas for calculating the values of infinite series, many of which were previously unknown.
+* **Continued fractions:** He explored and expanded the theory of continued fractions, finding elegant representations of various mathematical constants.
+* **Mock theta functions:** He introduced a new class of functions, now known as mock theta functions, which have only recently begun to be fully understood.
+* **Ramanujan prime:** He contributed to the study of prime numbers, with a specific type of prime number now bearing his name.
+
+In essence, Ramanujan's "inventions" were groundbreaking mathematical discoveries that expanded the boundaries of mathematical knowledge and continue to inspire research today.  He didn't create tangible objects, but he created a vast and enduring legacy of mathematical ideas.
+Where was he from ?
+He was from Erode, Tamil Nadu, India.
+Who is Srinivasa Ramanujan ?
+Srinivasa Ramanujan (1887-1920) was an Indian mathematician and autodidact who, with almost no formal training in pure mathematics, made extraordinary contributions to mathematical analysis, number theory, infinite series, and continued fractions.  His work, much of it done in isolation, was incredibly original and profound, revealing deep connections between seemingly disparate areas of mathematics.
+
+Despite facing significant hardships and limited resources, Ramanujan's intuitive genius led him to produce thousands of theorems and formulas, many of which remain unproven to this day.  His collaboration with the British mathematician G.H. Hardy at Cambridge University was pivotal in bringing his work to the wider mathematical community.  While his life was tragically short, his legacy continues to inspire mathematicians and researchers worldwide, with his discoveries still being explored and applied in various fields.  He's considered one of the greatest mathematical geniuses of all time.

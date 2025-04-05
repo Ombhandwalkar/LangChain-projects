@@ -1,0 +1,7 @@
+langsmith:
+  tracing: "true"
+  project_name: "Rag & SQL Agent"
+
+memory:
+  directory: memory
+
