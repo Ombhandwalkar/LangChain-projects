@@ -65,5 +65,3 @@ They offer flexibility, open-source extensibility, rapid prototyping, and are in
 - 🧪 Retrieval Relevance: ~90% match in controlled tests
 
 ---
-
-> ✅ **Live demo possible upon request** (locally run using Streamlit)

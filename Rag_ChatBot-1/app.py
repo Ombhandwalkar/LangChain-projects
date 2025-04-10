@@ -12,11 +12,11 @@ import google.generativeai as genai
 st.title('RAG enchanced Chatbot')
 
 
-GOOGLE_API_KEY = db.secrets.get('AIzaSyARKhnL0UPMvM09QaoZ69RtQtklpEs-1As')
+GOOGLE_API_KEY = db.secrets.get('GOOGLE_API_KEY')
 genai.configure(api_key=GOOGLE_API_KEY)
 
-os.environ['GOOGLE_API_KEY']=db.secrets.get('AIzaSyARKhnL0UPMvM09QaoZ69RtQtklpEs-1As ')
-google.api=db.secrets.get('AIzaSyARKhnL0UPMvM09QaoZ69RtQtklpEs-1As')
+os.environ['GOOGLE_API_KEY']=db.secrets.get('GOOGLE_API_KEY ')
+google.api=db.secrets.get('GOOGLE_API_KEY')
 
 model = genai.GenerativeModel(model_name="gemini-1.5-flash")
 chat = model.start_chat()
