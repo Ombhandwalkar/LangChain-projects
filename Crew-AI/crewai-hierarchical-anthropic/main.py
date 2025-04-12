@@ -7,13 +7,6 @@ from crewai import Agent,Task,Crew,Process
 from decouple import config  # It loads the secret API key
 from textwrap import dedent  # It cleans up the multiline string
 from langchain_anthropic import ChatAnthropic,ChatAnthropicMessages
-#from langchain_community.chat_models import ChatAnthropic
-#from dotenv import load_dotenv
-#load_dotenv()
-#os.environ['ANTHROPIC_API_KEY'] = os.getenv('ANTHROPIC_API_KEY')
-#os.environ['ANTHROPIC_API_KEY'] = os.getenv('ANTHROPIC_API_KEY')
-from decouple import config
-import os
 
 os.environ['ANTHROPIC_API_KEY'] = config('ANTHROPIC_API_KEY')
 
