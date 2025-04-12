@@ -1,0 +1,8 @@
+2025-04-12 13:44:22: task_name="None", task="
+Draft a lean business model canves for the idea
+---
+VARIABLE 1: "('AI - powered learning assistant for students',)"
+VARIABLE 2: "('remote software developers',)"
+VARIABLE 3: "difficulty in staying consistant with online learing"
+Add more variables if needed...
+", agent="Crew Manager", status="started"

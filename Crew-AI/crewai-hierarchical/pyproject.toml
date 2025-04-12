@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "crewai-hierarchical-quickstart"
+version = "0.0.1"
+description = "A startup Ideantion crew"
+authors = ["Om Bhandwalkar"]
+
+[tool.poetry.scripts]
+crewai-hierarchical-quickstart = "main:main"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+pydantic = "*"
+crewai = "*"
+setuptools = "*"
+python-decouple = "*"
+langchain-community = "*"
+langchain-anthropic = "*"
+
+[[tool.poetry.packages]]
+include = "*.py"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
