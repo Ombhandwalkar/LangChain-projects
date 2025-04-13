@@ -19,7 +19,7 @@ SYSTEM ""
 #ollama2 = ChatOllama(model="ollama/crewai-llama2", base_url="http://localhost:11434")
 ollama2 = ChatOllama(
     base_url="http://localhost:11434",
-    model="ollama/crewai-llama2"  # <- important
+    model="ollama/crewai-llama2"  
 )
 
 
