@@ -1,0 +1,3 @@
+Install - creawai 'creawai[tools]'
+To create Boiler template --> crewai create crew ai-latest-developement   (ai-latest-developement --> It is folder name)
+    -> You have to provide LLM API KEY.
