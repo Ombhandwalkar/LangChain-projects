@@ -1,82 +1,25 @@
-
-# LangChain Core
 langchain
-langchain-core
-
-# OpenAI Integration
 langchain-openai
 openai
-
-# Anthropic Integration
 langchain-anthropic
-
-# Google Gemini (PaLM) Integration
 langchain-google-genai
 google-generativeai
-
-# Hugging Face Integration
 langchain-huggingface
 transformers
 huggingface-hub
-
-# Environment Variable Management
 python-dotenv
-
-# Machine Learning Utilities
-#numpy
+numpy
 scikit-learn
-
-
 streamlit
-openai
+streamlit_chat
 sentence-transformers
 pinecone-client
 BeautifulSoup4
 genai
-google
-Google
-Gemini
-generativeai
-
-
-
-
-
-streamlit
-streamlit_chat
-langchain
-sentence_transformers
-openai
-unstructured
-unstructured[local-inference]
-pinecone
-
-
-
-langchain
-langchain-openai
-langchain-core
-langchain_community 
-docx2txt 
-pypdf
-langchain_chroma 
-sentence_transformers
 fastapi
 uvicorn
-
-
-
-langchain
-langchain-openai
-langchain-core
-langchain_community
+faiss-cpu
 docx2txt
 pypdf
 langchain_chroma
 python-multipart
-streamlit
-
-
-
-faiss-cpu
-pypdf

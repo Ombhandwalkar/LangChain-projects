@@ -1,0 +1,46 @@
+primary_agent:
+  llm: gemini-1.5-flash
+  llm_temperature: 0.0
+
+swiss_airline_policy_rag:
+  unstructured_docs: 'data/unstructured_docs/swiss_airline_policy'
+  vectordb: "data/airline_policy_vectordb"
+  collection_name: rag-chroma
+  llm: gemini-1.5-flash
+  llm_temperature: 0.0
+  embedding_model: models/embedding-001
+  chunk_size: 500
+  chunk_overlap: 100
+  k: 2
+
+stories_rag:
+  unstructured_docs: 'data/unstructured_docs/stories'
+  vectordb: 'data/stories_vector_db'
+  collection_name: stories-rag-chroma
+  llm: gemini-1.5-flash
+  llm_temperature: 0.0
+  embedding_model: models/embedding-001
+  chunk_size: 500
+  chunk_overlap : 100
+  k: 2
+
+travel_sqlagent_config:
+  travel_sql_dir: "data/travel.sqlite"
+  llm: gemini-1.5-flash
+  llm_temperature: 0.0
+
+chinbook_sqlagent_config:
+  travel_sqldb_dir: 'data/Chinbook.db'
+  llm: gemini-1.5-flash
+  llm_temperature: 0.0
+
+
+langsmith:
+  tracing: "true"
+  project_name: "rag_sqlagent_project"
+
+tavily_search_api:
+  tavily_search_max_results: 2
+
+graph_configs:
+  thread_id: 1 
