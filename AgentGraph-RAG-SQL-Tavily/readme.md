@@ -11,7 +11,7 @@ An AI-powered question-answering agent built with **Gemini 1.5 Flash**, **LangCh
 - **Vector DBs:** For context-based retrieval from document-based sources (e.g., airline policy, stories).
 - **SQL Agent Tools:** Executes SQL queries on structured databases (e.g., Chinook, airline travel DB).
 - **Tavily Search Tool:** Enables up-to-date web search as a fallback.
-- **Memory System:** Maintains ongoing conversation context with the user (`Om`).
+- **Memory System:** Maintains ongoing conversation context with the user.
 - **LangChain + LangGraph:** Manages agents, chains, and tool orchestration.
 - **LangSmith Integration:** Tracks tool usage, chains, debugging, and session logs.
 

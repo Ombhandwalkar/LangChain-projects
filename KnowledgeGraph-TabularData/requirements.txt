@@ -1,0 +1,17 @@
+gradio
+ipykernel
+langchain
+langchain-community
+langchain-core
+langchain-openai
+langchain-text-splitters
+langgraph
+langgraph-checkpoint
+langsmith
+numpy
+openai
+pandas
+pillow
+pyprojroot
+PyYAML
+SQLAlchemy
