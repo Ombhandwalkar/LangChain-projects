@@ -1,12 +1,10 @@
 from typing import List
 from langchain.chains.openai_functions import create_structured_output_chain
 from langchain_core.prompts import ChatPromptTemplate
-#from langchain_core.pydantic_v1 import Field
 from pydantic.v1 import BaseModel,Field
 from pydantic import BaseModel, Field,field_validator
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
-#from langchain.chains.graph_qa.cypher_utils import CypherQueryCorrector,Schema
 from langchain_community.chains.graph_qa.cypher_utils import CypherQueryCorrector, Schema
 
 

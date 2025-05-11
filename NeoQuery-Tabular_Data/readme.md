@@ -19,3 +19,22 @@
 - Knowledge graph construction
 - LLM chains and agents
 - Cypher query
+
+
+---
+
+
+## Movie Knowledge Graph
+<div align="center">
+  <img src="images/movie_KnowledgeGraph.png" alt="movie_KnowledgeGraph">
+</div>
+
+## Chatbot project Schema
+<div align="center">
+  <img src="images/projectschema.png" alt="Schema">
+</div>
+
+## Chatbot User Interface
+<div align="center">
+  <img src="images/UI.png" alt="ChatBot_UI">
+</div>

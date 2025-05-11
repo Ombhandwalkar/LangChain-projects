@@ -48,15 +48,12 @@ MemoryBot is built with:
 
 
 ### 📚 Entire Chat  
-![Sessions](screenshots/🧠MemoryBot🤖.pdf)
+[PDF]---[screenshots/🧠MemoryBot🤖.pdf]
 ---
 
 ## 🚀 How to Run
 ### 1. Clone this Repo
-```bash
-git clone https://github.com/yourusername/memorybot
-cd memorybot
-```
+
 
 ### 2. Install Requirements
 ```bash
@@ -72,7 +69,6 @@ langchain-google-genai
 ### 3. Run the App
 ```bash
 streamlit run app.py
-```
 
 ---
 
