@@ -36,6 +36,11 @@ An AI-powered question-answering agent built with **Gemini 1.5 Flash**, **LangCh
 </div>
 
 ---
+<div align="center">
+  <img src="Images/UI.png" alt="detailed_schema">
+</div>
+
+---
 
 ## 🔧 Setup Instructions
 
@@ -49,7 +54,7 @@ cd querybot
 pip install -r requirements.txt
 
 
-OPENAI_API_KEY=your_key
+GEMINI_API_KEY=your_key
 TAVILY_API_KEY=your_key
 LANGCHAIN_API_KEY=your_key
 LANGSMITH_API_KEY=your_key
