@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "B:\Major_Git\LangChain-models\RLHF\PPO\gpt_sentiment.py", line 69, in <module>
+    ppo_trainer= PPOTrainer(config, reward_model=model,ref_model=ref_model, train_dataset=dataset,  data_collator=collator)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: PPOTrainer.__init__() missing 2 required positional arguments: 'processing_class' and 'model'

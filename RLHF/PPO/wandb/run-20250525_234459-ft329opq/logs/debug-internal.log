@@ -1,0 +1,15 @@
+{"time":"2025-05-25T23:44:59.6731369+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"B:\\Major_Git\\LangChain-models\\RLHF\\PPO\\wandb\\run-20250525_234459-ft329opq\\logs\\debug-core.log"}
+{"time":"2025-05-25T23:45:00.1748698+05:30","level":"INFO","msg":"created new stream","id":"ft329opq"}
+{"time":"2025-05-25T23:45:00.175472+05:30","level":"INFO","msg":"stream: started","id":"ft329opq"}
+{"time":"2025-05-25T23:45:00.175472+05:30","level":"INFO","msg":"handler: started","stream_id":"ft329opq"}
+{"time":"2025-05-25T23:45:00.175472+05:30","level":"INFO","msg":"sender: started","stream_id":"ft329opq"}
+{"time":"2025-05-25T23:45:00.175472+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ft329opq"}
+{"time":"2025-05-25T23:45:00.587343+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-25T23:45:19.7806084+05:30","level":"INFO","msg":"stream: closing","id":"ft329opq"}
+{"time":"2025-05-25T23:45:19.7806084+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-25T23:45:19.7806084+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-25T23:45:20.9277797+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-25T23:45:21.3311936+05:30","level":"INFO","msg":"handler: closed","stream_id":"ft329opq"}
+{"time":"2025-05-25T23:45:21.3311936+05:30","level":"INFO","msg":"sender: closed","stream_id":"ft329opq"}
+{"time":"2025-05-25T23:45:21.3311936+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ft329opq"}
+{"time":"2025-05-25T23:45:21.3317+05:30","level":"INFO","msg":"stream: closed","id":"ft329opq"}

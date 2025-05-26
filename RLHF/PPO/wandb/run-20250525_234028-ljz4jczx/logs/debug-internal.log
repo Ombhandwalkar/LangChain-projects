@@ -1,0 +1,15 @@
+{"time":"2025-05-25T23:40:28.6298065+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"B:\\Major_Git\\LangChain-models\\RLHF\\PPO\\wandb\\run-20250525_234028-ljz4jczx\\logs\\debug-core.log"}
+{"time":"2025-05-25T23:40:29.1269185+05:30","level":"INFO","msg":"created new stream","id":"ljz4jczx"}
+{"time":"2025-05-25T23:40:29.1269185+05:30","level":"INFO","msg":"stream: started","id":"ljz4jczx"}
+{"time":"2025-05-25T23:40:29.1269185+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ljz4jczx"}
+{"time":"2025-05-25T23:40:29.1269185+05:30","level":"INFO","msg":"handler: started","stream_id":"ljz4jczx"}
+{"time":"2025-05-25T23:40:29.1269185+05:30","level":"INFO","msg":"sender: started","stream_id":"ljz4jczx"}
+{"time":"2025-05-25T23:40:29.524629+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-25T23:40:48.5913916+05:30","level":"INFO","msg":"stream: closing","id":"ljz4jczx"}
+{"time":"2025-05-25T23:40:48.5913916+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-25T23:40:48.5913916+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-25T23:40:50.4554099+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-25T23:40:50.8572607+05:30","level":"INFO","msg":"handler: closed","stream_id":"ljz4jczx"}
+{"time":"2025-05-25T23:40:50.857778+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ljz4jczx"}
+{"time":"2025-05-25T23:40:50.857778+05:30","level":"INFO","msg":"sender: closed","stream_id":"ljz4jczx"}
+{"time":"2025-05-25T23:40:50.857778+05:30","level":"INFO","msg":"stream: closed","id":"ljz4jczx"}

@@ -1,0 +1,31 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "CPython 3.11.5",
+  "startedAt": "2025-05-25T17:59:37.381439Z",
+  "program": "B:\\Major_Git\\LangChain-models\\RLHF\\PPO\\gpt_sentiment.py",
+  "codePath": "RLHF\\PPO\\gpt_sentiment.py",
+  "git": {
+    "remote": "https://github.com/Ombhandwalkar/LangChain-projects.git",
+    "commit": "af42e3ea58290cfad50a7ee776157914f085aaa2"
+  },
+  "email": "ombhandwalkar38126@gmail.com",
+  "root": "B:\\Major_Git\\LangChain-models\\RLHF\\PPO",
+  "host": "Omi-000",
+  "executable": "B:\\Major_Git\\LangChain-models\\venv\\Scripts\\python.exe",
+  "codePathLocal": "gpt_sentiment.py",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "268434403328",
+      "used": "97619525632"
+    }
+  },
+  "memory": {
+    "total": "8345964544"
+  },
+  "cpu": {
+    "count": 4,
+    "countLogical": 8
+  }
+}

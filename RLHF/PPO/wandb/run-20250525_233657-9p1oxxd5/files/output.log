@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "B:\Major_Git\LangChain-models\RLHF\PPO\gpt_sentiment.py", line 69, in <module>
+    ppo_trainer= PPOTrainer(config,
+                ^^^^^^^^^^^^^^^^^^^
+TypeError: PPOTrainer.__init__() got an unexpected keyword argument 'tokenizer'
