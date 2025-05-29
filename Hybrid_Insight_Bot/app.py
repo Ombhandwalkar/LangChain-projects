@@ -89,3 +89,17 @@ if uploaded_file:
         answer = answer_question(question, related_documents)
         st.chat_message("assistant").write(answer)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
