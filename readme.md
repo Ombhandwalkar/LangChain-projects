@@ -220,9 +220,6 @@ DocuMind is a lightweight and efficient question-answering system that uses Retr
 ---
 
 [**RLHF**](https://github.com/Ombhandwalkar/LangChain-projects/tree/master/RLHF)
-
----
-
 **PPO**- Proximal Policy Optimization (PPO) is a reinforcement learning algorithm used to fine-tune language models (LLMs) by maximizing rewards based on human feedback
 
 ---
