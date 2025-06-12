@@ -1,6 +1,6 @@
 # KnowledgeGraph-Q&A-and-RAG-with-TabularData
 
-`KnowledgeGraph-Q&A-and-RAG-with-TabularData` is a chatbot project that utilizes <u>knowledge graph</u>, <u>GPT 3.5</u>, <u>Langchain graph agent</u>, and <u>Neo4j</u> graph database and allows users to interact (perform <u>Q&A and RAG</u>) with Tabular databases (CSV, XLSX, etc.) using natural language. This project also demonstrates an approach for cunstructing the knowledge graph from unstructured data by leveraging LLMs.
+`KnowledgeGraph-Q&A-and-RAG-with-TabularData` is a chatbot project that utilizes <u>knowledge graph</u>, <u>GEMINI 1.5</u>, <u>Langchain graph agent</u>, and <u>Neo4j</u> graph database and allows users to interact (perform <u>Q&A and RAG</u>) with Tabular databases (CSV, XLSX, etc.) using natural language. This project also demonstrates an approach for cunstructing the knowledge graph from unstructured data by leveraging LLMs.
 
 ## Features:
 - Chat with a graphDB created from tabular data.
