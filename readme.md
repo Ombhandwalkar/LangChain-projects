@@ -43,7 +43,9 @@ This chatbot allows users to:
 🗃️ Graph database: Neo4j (read-only mode enforced)
 
 🔐 Secure by design — read-only DB connections recommended to prevent destructive queries
+
 ---
+
 [**ChatSQL-Bot**](https://github.com/Ombhandwalkar/LangChain-projects/tree/master/ChatSQL_Bot)  
 SQL Whisperer is a smart assistant that translates plain English into executable SQL queries using Google's Gemini 1.5 Flash, LangChain, and a sleek Streamlit UI. It's built to interact with MySQL databases, enabling effortless querying without needing SQL skills.
 
@@ -70,7 +72,9 @@ SQL Whisperer is a smart assistant that translates plain English into executable
 * SQL Conversion & Execution on a live MySQL DB
 
 * Formatted Output delivered via Streamlit UI
+
 ---
+
 [**Crew-AI**](https://github.com/Ombhandwalkar/LangChain-projects/tree/master/Crew-AI) 
 1) **ai_latest_developement**
 A dynamic agent system that continuously tracks the latest developments in AI.
@@ -108,6 +112,7 @@ Includes persona-driven agents (e.g., editor, critic, stylist) for collaborative
 Perfect for AI-assisted artistic expression and poetic exploration.
 
 ---
+
 [**🔍 Hybrid RAG-Powered PDF Question Answering App**](https://github.com/Ombhandwalkar/LangChain-projects/tree/master/Hybrid_Insight_Bot) 
 An intelligent PDF QA tool that blends dense + sparse retrieval with Gemini 1.5 Flash to deliver fast, context-aware answers to natural language questions over uploaded PDF documents.
 
@@ -138,7 +143,9 @@ Retrievers → BM25 + Dense Embeddings
 LLM Response → Gemini Flash via LangChain
 
 Frontend → Streamlit
+
 ---
+
 [**RAG Enhanced Chatbot**](https://github.com/Ombhandwalkar/LangChain-projects/tree/master/Insight_Bot) 
 An AI-powered chatbot that reads uploaded PDFs and answers user questions with context-aware, citation-backed responses. Built with Streamlit, LangChain, and Google Gemini (Generative AI) using Retrieval-Augmented Generation (RAG).
 
@@ -154,6 +161,7 @@ An AI-powered chatbot that reads uploaded PDFs and answers user questions with c
 🌐 Interactive UI – Clean and intuitive Streamlit interface
 
 ---
+
 [**LangChain-Basics**](https://github.com/Ombhandwalkar/LangChain-projects/tree/master/LangChain_Basics) 
 **LL**Ms: Interface with powerful large language models to generate raw text responses.
 
@@ -174,9 +182,6 @@ Output Parsers**: Transform raw LLM outputs into structured, usable formats (e.g
 **Runnables**: Modular, composable units that allow chaining and reuse of logic across pipelines.
 
 **Structured Output**: Enforce schema-based responses from LLMs for reliable downstream use.
-
----
-[**MCP**](https://github.com/Ombhandwalkar/LangChain-projects/tree/master/MCP) 
 
 ---
 [**Memory-Bot**](https://github.com/Ombhandwalkar/LangChain-projects/tree/master/MemoryBot) 
@@ -215,18 +220,18 @@ DocuMind is a lightweight and efficient question-answering system that uses Retr
 
 ---
 
-[**Source Reference Bot**](https://github.com/Ombhandwalkar/LangChain-projects/tree/master/SourceReference_Bot)
+[**RLHF**](https://github.com/Ombhandwalkar/LangChain-projects/tree/master/RLHF)
 
 ---
-[**RLHF**](https://github.com/Ombhandwalkar/LangChain-projects/tree/master/RLHF)
 
 **PPO**- Proximal Policy Optimization (PPO) is a reinforcement learning algorithm used to fine-tune language models (LLMs) by maximizing rewards based on human feedback
 
+---
+[**MCP**](https://github.com/Ombhandwalkar/LangChain-projects/tree/master/MCP) 
 
---
+---
 
+[**Source Reference Bot**](https://github.com/Ombhandwalkar/LangChain-projects/tree/master/SourceReference_Bot)
 
-
-
-
+---
 
