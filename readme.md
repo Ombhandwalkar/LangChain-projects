@@ -42,7 +42,6 @@ This chatbot allows users to:
 
 🗃️ Graph database: Neo4j (read-only mode enforced)
 
-🔐 Secure by design — read-only DB connections recommended to prevent destructive queries
 
 ---
 
@@ -142,7 +141,7 @@ Retrievers → BM25 + Dense Embeddings
 
 LLM Response → Gemini Flash via LangChain
 
-Frontend → Streamlit
+
 
 ---
 
