@@ -1,233 +1,442 @@
-[**AgentGraph-RAG-SQL-Tavily**](https://github.com/Ombhandwalkar/LangChain-projects/tree/master/AgentGraph-RAG-SQL-Tavily)  
-QueryBot is an intelligent, conversational SQL assistant powered by Gemini 1.5 Flash, capable of interacting with both structured (SQL) and unstructured (vector) databases. It seamlessly integrates with Gradio, LangChain, LangGraph, and LangSmith, making data exploration effortless and intuitive.
+# 🚀 LangChain Projects Portfolio
 
-🌟 Highlights
-🤖 Natural Language Interface – Ask questions naturally; get precise data from SQL and vector DBs.
-
-🧠 Gemini 1.5 Flash – Central agent managing queries and tool routing.
-
-🗃️ Multi-Database Support – SQL (e.g., Chinook) and Vector DBs for document-based context.
-
-🔍 Tavily Web Search – Real-time info when data isn’t in local sources.
-
-💬 Conversational Memory – Maintains session context.
-
-📊 LangSmith Integration – Logging, debugging, and observability.
-
-🛠️ Gradio Frontend – User-friendly UI for seamless interaction.
-
----
-[**KnowledgeGraph-Q&A-and-RAG-with-TabularData**](https://github.com/Ombhandwalkar/LangChain-projects/tree/master/NeoQuery-Tabular_Data) 
-An intelligent chatbot powered by LangChain, GEMINI 1.5, and Neo4j, enabling Q&A and Retrieval-Augmented Generation (RAG) over tabular data (CSV, Excel, etc.) through an automatically constructed knowledge graph.
-
-🧠 What It Does
-This chatbot allows users to:
-
-🗂 Chat with tabular datasets transformed into a knowledge graph
-
-🔎 Ask complex questions that leverage relationships within the data
-
-🧬 Perform RAG over graph-structured data
-
-🛠️ Generate a knowledge graph from CSV/XLSX files using LLMs + LangChain Graph Transformer
-
-✨ Features
-✅ Natural language interface for querying structured data
-
-🧾 Tabular input support: .csv, .xlsx, etc.
-
-🧠 Knowledge graph built from your data (auto-generated or expert-designed)
-
-💬 Cypher query generation and execution via LangChain + GEMINI 1.5
-
-🗃️ Graph database: Neo4j (read-only mode enforced)
-
+A comprehensive collection of production-ready LangChain applications showcasing advanced RAG architectures, multi-agent systems, knowledge graphs, and conversational AI. Built with cutting-edge LLMs and modern tooling for intelligent information retrieval and natural language interfaces.
 
 ---
 
-[**ChatSQL-Bot**](https://github.com/Ombhandwalkar/LangChain-projects/tree/master/ChatSQL_Bot)  
-SQL Whisperer is a smart assistant that translates plain English into executable SQL queries using Google's Gemini 1.5 Flash, LangChain, and a sleek Streamlit UI. It's built to interact with MySQL databases, enabling effortless querying without needing SQL skills.
+## 📋 Table of Contents
 
-🚀 Key Highlights
-🧠 Natural Language to SQL using Gemini-1.5-Flash
-
-💬 Interactive Streamlit Chat UI for querying databases
-
-📚 Few-Shot Learning with semantic example matching
-
-📊 Schema Awareness with smart table selection
-
-🔄 Contextual Conversations with history tracking
-
-✅ Readable Output for user-friendly responses
-
-🧱 Architecture Overview
-* Gemini AI for understanding natural language queries
-
-* Semantic Few-Shot Examples to guide SQL generation
-
-* Dynamic Table Selection from database schema
-
-* SQL Conversion & Execution on a live MySQL DB
-
-* Formatted Output delivered via Streamlit UI
+- [Featured Projects](#-featured-projects)
+- [Tech Stack Overview](#-tech-stack-overview)
+- [Getting Started](#-getting-started)
+- [Project Categories](#-project-categories)
+- [Contributing](#-contributing)
+- [Contact](#-contact)
 
 ---
 
-[**Crew-AI**](https://github.com/Ombhandwalkar/LangChain-projects/tree/master/Crew-AI) 
-1) **ai_latest_developement**
-A dynamic agent system that continuously tracks the latest developments in AI.
-Leverages web scraping and LLM summarization for real-time trend analysis.
-Ideal for staying updated on cutting-edge tools, models, and research.
+## 🌟 Featured Projects
 
-2) **ai_news**
-Aggregates and curates daily AI-related news articles and blog posts.
-Uses NLP pipelines to summarize, tag, and classify updates.
-Streamlined for fast skimming of high-signal AI headlines.
+### 1. [AgentGraph-RAG-SQL-Tavily](./AgentGraph-RAG-SQL-Tavily) - QueryBot
+**Most Advanced Multi-Agent System**
 
-3) **crewai-hiereachical-antropic**
-Implements a hierarchical agent system using Anthropic Claude for structured task delegation.
-Tasks are broken into subtasks and distributed across specialized agents.
-Optimized for complex workflows requiring planning, reasoning, and execution.
+An intelligent, conversational SQL assistant powered by Gemini 1.5 Flash, capable of interacting with both structured (SQL) and unstructured (vector) databases with real-time web search integration.
 
-4) **crewai_sequential-ollama2**
-Sequential agent architecture powered by Ollama 2 LLMs.
-Agents pass context and outputs down a structured pipeline for task resolution.
-Efficient for step-wise processes like data analysis, report generation, or multi-stage RAG.
+**Key Technologies:**
+- 🧠 **LLM:** Gemini 1.5 Flash
+- 🔄 **Orchestration:** LangGraph, LangChain
+- 🗃️ **Databases:** SQL (Chinook DB), Vector DB, Tavily Web Search
+- 📊 **Observability:** LangSmith
+- 💻 **Frontend:** Gradio
 
-5) **meeting minutes**
-Transcribes, summarizes, and organizes meeting recordings into structured minutes.
-Supports speaker tagging, action item extraction, and agenda mapping.
-Useful for organizations aiming to automate documentation.
-
-6) **pdf rag**
-Retrieval-Augmented Generation system built for querying PDFs using natural language.
-Parses and embeds documents for semantic search via vector DBs.
-Great for turning static PDF reports into interactive knowledge systems.
-
-7) **poem flow**
-Creative agent workflow for generating and refining poems or lyrical content.
-Includes persona-driven agents (e.g., editor, critic, stylist) for collaborative writing.
-Perfect for AI-assisted artistic expression and poetic exploration.
+**Highlights:**
+- Natural language interface for SQL and vector database queries
+- Intelligent agent routing between multiple data sources
+- Real-time web search fallback via Tavily
+- Conversational memory with session context
+- Production-grade logging and debugging
 
 ---
 
-[**🔍 Hybrid RAG-Powered PDF Question Answering App**](https://github.com/Ombhandwalkar/LangChain-projects/tree/master/Hybrid_Insight_Bot) 
-An intelligent PDF QA tool that blends dense + sparse retrieval with Gemini 1.5 Flash to deliver fast, context-aware answers to natural language questions over uploaded PDF documents.
+### 2. [NeoQuery - Knowledge Graph RAG](./NeoQuery-Tabular_Data)
+**Advanced Knowledge Graph Construction & Querying**
 
-🌟 Quick Highlights
-📄 Upload PDF and query it in plain English
+An intelligent chatbot that transforms tabular data into knowledge graphs, enabling complex relational queries through natural language using Neo4j and LangChain.
 
-🤖 Gemini 1.5 Flash for fast, factual responses
+**Key Technologies:**
+- 🧠 **LLM:** Gemini 1.5
+- 🕸️ **Graph DB:** Neo4j
+- 🔧 **Framework:** LangChain Graph Transformer
+- 📊 **Data:** CSV, Excel support
 
-🔍 Hybrid Retrieval (RAG) using:
-
-🧠 Dense: GoogleGenerativeAIEmbeddings
-
-📚 Sparse: BM25Retriever
-
-⚖️ Ensemble: Balanced 50/50 fusion
-
-💻 Streamlit UI for a seamless experience
-
-📦 LangChain Orchestration with modular pipelines
-
-🧱 Architecture at a Glance
-PDF Ingestion → PDFPlumberLoader
-
-Chunking → RecursiveCharacterTextSplitter
-
-Retrievers → BM25 + Dense Embeddings
-
-LLM Response → Gemini Flash via LangChain
-
-
+**Highlights:**
+- Automatic knowledge graph generation from tabular data
+- Cypher query generation from natural language
+- Complex relationship-aware querying
+- RAG over graph-structured data
+- Read-only mode for safe production deployment
 
 ---
 
-[**RAG Enhanced Chatbot**](https://github.com/Ombhandwalkar/LangChain-projects/tree/master/Insight_Bot) 
-An AI-powered chatbot that reads uploaded PDFs and answers user questions with context-aware, citation-backed responses. Built with Streamlit, LangChain, and Google Gemini (Generative AI) using Retrieval-Augmented Generation (RAG).
+### 3. [ChatSQL-Bot - SQL Whisperer](./ChatSQL_Bot)
+**Intelligent Natural Language to SQL Translator**
 
-🚀 Key Features
-📄 Multi-PDF Upload – Load and analyze multiple documents
+A smart assistant that translates plain English into executable SQL queries using semantic few-shot learning and dynamic schema awareness.
 
-📊 Vector Search – Builds a vector store from extracted PDF content
+**Key Technologies:**
+- 🧠 **LLM:** Gemini 1.5 Flash
+- 🗄️ **Database:** MySQL
+- 💬 **UI:** Streamlit
+- 🎯 **Learning:** Few-Shot with semantic matching
 
-💬 Smart Q&A – Uses Gemini + RAG for precise, contextual answers
-
-📌 Citations Included – Adds filename and page number for each source
-
-🌐 Interactive UI – Clean and intuitive Streamlit interface
-
----
-
-[**LangChain-Basics**](https://github.com/Ombhandwalkar/LangChain-projects/tree/master/LangChain_Basics) 
-**LL**Ms: Interface with powerful large language models to generate raw text responses.
-
-**ChatMode**ls: Tailored for multi-turn conversations using chat-style input/output formats.
-
-**Embedding Mode**ls: Convert text into vector representations for similarity search and retrieval tasks.
-
-**Chai**ns: Combine multiple steps (e.g., prompt → model → parser) into a cohesive processing pipeline.
-
-**Chatb**ot: Interactive conversational agent that integrates LangChain modules for dynamic Q&A.
-
-**Document Loaders**: Ingest content from PDFs, web pages, and more into LangChain workflows.
-**
-Output Parsers**: Transform raw LLM outputs into structured, usable formats (e.g., JSON, lists).
-
-**Prompts**: Define the input format and task instructions to guide LLM behavior effectively.
-
-**Runnables**: Modular, composable units that allow chaining and reuse of logic across pipelines.
-
-**Structured Output**: Enforce schema-based responses from LLMs for reliable downstream use.
-
----
-[**Memory-Bot**](https://github.com/Ombhandwalkar/LangChain-projects/tree/master/MemoryBot) 
-A smart, Streamlit-based chatbot powered by LangChain, Gemini (1.5 Flash & Pro), and entity-based memory — designed for rich, multi-turn conversations that feel truly human.
-
-🌟 Highlights
-🧠 Contextual Memory via ConversationEntityMemory
-
-💬 Multi-turn Chat that remembers people, places, events
-
-📂 Chat Session Management – start fresh or revisit previous conversations
-
-🛠 Model Switching – choose between Gemini 1.5 Flash & Pro
-
-🔍 Memory Viewer – preview internal memory buffers & tracked entities
-
-📥 Downloadable Chat History – export full conversations
-
-⚙️ Streamlit UI – responsive, interactive, and secure
+**Highlights:**
+- Zero SQL knowledge required for users
+- Dynamic table selection from schema
+- Contextual conversation tracking
+- Semantic example matching for accuracy
+- Formatted, human-readable output
 
 ---
 
-[**DocuMind – RAG-Powered QA from Documents**](https://github.com/Ombhandwalkar/LangChain-projects/tree/master/RAG_ChatBot_FAISS) 
-DocuMind is a lightweight and efficient question-answering system that uses Retrieval-Augmented Generation (RAG) to deliver precise answers from a curated dataset. Built on top of HuggingFace, FAISS, and Gradio, it enables seamless interaction through a modern chat interface and leverages small, fast models like Intel’s dynamic_tinybert for real-time performance.
+### 4. [Hybrid_Insight_Bot - Hybrid RAG PDF QA](./Hybrid_Insight_Bot)
+**Advanced Retrieval with Dense + Sparse Fusion**
 
-🚀 Key Features
-🔍 RAG-based QA: Retrieves relevant context and answers user queries using compact LLMs.
+An intelligent PDF QA tool that combines dense and sparse retrieval methods for superior context-aware answers.
 
-💬 Interactive Gradio Interface: Clean, intuitive, and easy to use.
+**Key Technologies:**
+- 🧠 **LLM:** Gemini 1.5 Flash
+- 🔍 **Retrieval:** Hybrid (BM25 + Dense Embeddings)
+- 📄 **Parsing:** PDFPlumber
+- 💻 **UI:** Streamlit
+- ⚙️ **Embeddings:** GoogleGenerativeAIEmbeddings
 
-⚡ Fast Inference with TinyBERT: Low-latency responses powered by a lightweight QA model.
-
-📂 Efficient Document Handling: Chunking and embedding of the Dolly-15k dataset for scalable performance.
-
-🧠 FAISS Vector Store: Enables high-speed similarity search across embedded knowledge.
-
----
-
-[**RLHF**](https://github.com/Ombhandwalkar/LangChain-projects/tree/master/RLHF)
-**PPO**- Proximal Policy Optimization (PPO) is a reinforcement learning algorithm used to fine-tune language models (LLMs) by maximizing rewards based on human feedback
-
----
-[**MCP**](https://github.com/Ombhandwalkar/LangChain-projects/tree/master/MCP) 
+**Highlights:**
+- 50/50 ensemble retrieval (BM25 + Dense)
+- Fast, factual responses with context
+- Modular LangChain pipeline
+- Recursive text chunking for optimal retrieval
 
 ---
 
-[**Source Reference Bot**](https://github.com/Ombhandwalkar/LangChain-projects/tree/master/SourceReference_Bot)
+### 5. [MemoryBot - Entity-Aware Conversational AI](./MemoryBot)
+**Smart Chatbot with Persistent Entity Memory**
+
+A conversational agent that remembers people, places, and events across sessions using entity-based memory tracking.
+
+**Key Technologies:**
+- 🧠 **LLM:** Gemini 1.5 Flash & Pro
+- 🧩 **Memory:** ConversationEntityMemory
+- 💬 **UI:** Streamlit
+- 📂 **Session Management:** Multi-conversation support
+
+**Highlights:**
+- Entity-based memory tracking
+- Model switching (Flash/Pro)
+- Chat session management
+- Memory buffer visualization
+- Downloadable chat history
 
 ---
 
+### 6. [Insight_Bot - RAG Enhanced Chatbot](./Insight_Bot)
+**Multi-PDF QA with Citations**
+
+An AI-powered chatbot that reads multiple PDFs and provides citation-backed, context-aware answers.
+
+**Key Technologies:**
+- 🧠 **LLM:** Google Gemini
+- 🔍 **RAG:** LangChain Vector Store
+- 📄 **Processing:** Multi-PDF upload
+- 💻 **UI:** Streamlit
+
+**Highlights:**
+- Multi-document processing
+- Source citations with page numbers
+- Vector search for semantic retrieval
+- Clean, interactive interface
+
+---
+
+### 7. [CrewAI Hierarchical - Anthropic](./crewai-hiereachical-antropic)
+**Structured Multi-Agent Task Delegation**
+
+Implements hierarchical agent architecture using Anthropic Claude for complex workflow management.
+
+**Key Technologies:**
+- 🧠 **LLM:** Anthropic Claude
+- 🤖 **Framework:** CrewAI
+- 🎯 **Architecture:** Hierarchical task delegation
+
+**Highlights:**
+- Task breakdown into subtasks
+- Specialized agent coordination
+- Planning and reasoning optimization
+- Ideal for complex workflows
+
+---
+
+### 8. [CrewAI Sequential - Ollama 2](./crewai_sequential-ollama2)
+**Pipeline-Based Agent Architecture**
+
+Sequential agent system with context passing for step-wise task resolution.
+
+**Key Technologies:**
+- 🧠 **LLM:** Ollama 2
+- 🤖 **Framework:** CrewAI
+- 🔄 **Architecture:** Sequential pipeline
+
+**Highlights:**
+- Structured pipeline processing
+- Context propagation between agents
+- Efficient for data analysis and report generation
+- Multi-stage RAG support
+
+---
+
+### 9. [AI Latest Development Tracker](./ai_latest_developement)
+**Real-Time AI Trend Analysis**
+
+Dynamic agent system that continuously monitors the latest AI developments using web scraping and LLM summarization.
+
+**Key Technologies:**
+- 🔍 **Web Scraping:** Custom scrapers
+- 🧠 **Summarization:** LLM-based
+- 📊 **Analysis:** Trend identification
+
+**Highlights:**
+- Real-time AI development tracking
+- Automated trend analysis
+- Tool and model monitoring
+- Research update aggregation
+
+---
+
+### 10. [Meeting Minutes Generator](./meeting minutes)
+**Automated Meeting Documentation**
+
+Transcribes and organizes meeting recordings into structured minutes with speaker tagging and action items.
+
+**Key Technologies:**
+- 🎤 **Transcription:** Audio processing
+- 🧠 **NLP:** Speaker identification, action extraction
+- 📋 **Output:** Structured documentation
+
+**Highlights:**
+- Speaker tagging
+- Action item extraction
+- Agenda mapping
+- Automated documentation workflow
+
+---
+
+### 11. [PDF RAG](./pdf rag)
+**Document Intelligence System**
+
+Retrieval-Augmented Generation system for querying PDFs with natural language.
+
+**Key Technologies:**
+- 🔍 **RAG:** Vector-based retrieval
+- 📄 **Processing:** PDF parsing and embedding
+- 🗃️ **Storage:** Vector DB
+
+**Highlights:**
+- Semantic search over PDFs
+- Natural language querying
+- Interactive knowledge extraction
+
+---
+
+### 12. [DocuMind - Lightweight RAG QA](./RAG_ChatBot_FAISS)
+**Fast, Compact RAG System**
+
+Efficient question-answering system using lightweight models and FAISS for high-speed retrieval.
+
+**Key Technologies:**
+- 🧠 **Model:** Intel Dynamic TinyBERT
+- 🔍 **Vector Store:** FAISS
+- 💬 **UI:** Gradio
+- 📚 **Dataset:** Dolly-15k
+
+**Highlights:**
+- Low-latency responses
+- Compact model deployment
+- High-speed similarity search
+- Resource-efficient architecture
+
+---
+
+### 13. [Poem Flow - Creative AI Agents](./poem flow)
+**Collaborative Writing System**
+
+Creative agent workflow with persona-driven agents for generating and refining poetic content.
+
+**Key Technologies:**
+- 🤖 **Multi-Agent:** Editor, Critic, Stylist personas
+- ✍️ **Domain:** Creative writing
+- 🔄 **Workflow:** Collaborative refinement
+
+**Highlights:**
+- AI-assisted artistic expression
+- Multi-persona collaboration
+- Iterative content refinement
+
+---
+
+### 14. [AI News Aggregator](./ai_news)
+**Daily AI News Curation**
+
+Aggregates and curates AI-related news with NLP-based summarization and classification.
+
+**Key Technologies:**
+- 📰 **Aggregation:** Multi-source scraping
+- 🧠 **NLP:** Summarization and tagging
+- 🏷️ **Classification:** Topic categorization
+
+**Highlights:**
+- Daily news compilation
+- Automatic summarization
+- High-signal content filtering
+
+---
+
+### 15. [LangChain Basics](./LangChain_Basics)
+**Comprehensive LangChain Fundamentals**
+
+Educational repository covering core LangChain concepts and building blocks.
+
+**Modules Covered:**
+- 🤖 LLMs & ChatModels
+- 🔗 Chains & Runnables
+- 📄 Document Loaders
+- 🎯 Prompts & Output Parsers
+- 🧠 Embedding Models
+- 💬 Chatbot Implementation
+- 📊 Structured Output
+
+**Perfect for:** Learning LangChain from scratch
+
+---
+
+### 16. [RLHF - Proximal Policy Optimization](./RLHF)
+**Reinforcement Learning from Human Feedback**
+
+Implementation of PPO for fine-tuning language models based on human feedback.
+
+**Key Technologies:**
+- 🎯 **Algorithm:** Proximal Policy Optimization (PPO)
+- 🔄 **Training:** RLHF pipeline
+- 📊 **Optimization:** Reward-based fine-tuning
+
+**Highlights:**
+- Human-in-the-loop learning
+- LLM fine-tuning methodology
+- Reward maximization framework
+
+---
+
+## 🛠️ Tech Stack Overview
+
+### Large Language Models
+- Google Gemini 1.5 (Flash & Pro)
+- Anthropic Claude
+- Ollama 2
+- HuggingFace Models (TinyBERT)
+
+### Frameworks & Tools
+- **LangChain** - Core orchestration framework
+- **LangGraph** - Complex agent workflows
+- **LangSmith** - Observability and debugging
+- **CrewAI** - Multi-agent systems
+
+### Databases & Storage
+- **Vector DBs:** FAISS, Chroma
+- **Graph DB:** Neo4j
+- **SQL:** MySQL, Chinook DB
+
+### Retrieval & Embeddings
+- GoogleGenerativeAIEmbeddings
+- BM25Retriever
+- Hybrid Search (Dense + Sparse)
+
+### User Interfaces
+- Streamlit
+- Gradio
+
+### Additional Tools
+- Tavily (Web Search)
+- PDFPlumber (Document Processing)
+- PPO (Reinforcement Learning)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+```bash
+python >= 3.8
+pip install -r requirements.txt
+```
+
+### Environment Setup
+Create a `.env` file with necessary API keys:
+```
+GOOGLE_API_KEY=your_gemini_api_key
+ANTHROPIC_API_KEY=your_anthropic_key
+LANGSMITH_API_KEY=your_langsmith_key
+NEO4J_URI=your_neo4j_uri
+NEO4J_USERNAME=your_username
+NEO4J_PASSWORD=your_password
+```
+
+### Running Projects
+Each project directory contains its own README with specific setup instructions. Navigate to the project folder and follow the instructions:
+
+```bash
+cd [project-name]
+python app.py  # or streamlit run app.py
+```
+
+---
+
+## 📂 Project Categories
+
+### 🎯 Advanced RAG Systems
+- AgentGraph-RAG-SQL-Tavily
+- Hybrid_Insight_Bot
+- Insight_Bot
+- DocuMind
+- PDF RAG
+
+### 🤖 Multi-Agent Systems
+- CrewAI Hierarchical (Anthropic)
+- CrewAI Sequential (Ollama 2)
+- AI Latest Development Tracker
+
+### 🗃️ Database Interfaces
+- NeoQuery (Knowledge Graphs)
+- ChatSQL-Bot
+- AgentGraph-RAG-SQL-Tavily
+
+### 💬 Conversational AI
+- MemoryBot
+- ChatSQL-Bot
+- Insight_Bot
+
+### 🎨 Creative & Specialized
+- Poem Flow
+- Meeting Minutes Generator
+- AI News Aggregator
+
+### 📚 Learning Resources
+- LangChain Basics
+- RLHF
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page or submit a pull request.
+
+---
+
+## 📧 Contact
+
+**Om Bhandwalkar**
+- GitHub: [@Ombhandwalkar](https://github.com/Ombhandwalkar)
+- Repository: [LangChain-projects](https://github.com/Ombhandwalkar/LangChain-projects)
+
+---
+
+## 📄 License
+
+This repository is available for educational and reference purposes. Please check individual project directories for specific licensing information.
+
+---
+
+## ⭐ Star History
+
+If you find these projects helpful, consider giving the repository a star! ⭐
+
+---
+
+**Built with ❤️ using LangChain, Google Gemini, and cutting-edge AI technologies**
