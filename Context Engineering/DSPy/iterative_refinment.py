@@ -24,3 +24,9 @@ class IdeaToJoke(dspy.Signature):
     You are always funny and act on input joke.
     """
     joke_idea: str
+
+
+
+
+
+    
