@@ -1,178 +1,55 @@
-# Advanced Retrieval-Augmented Generation (RAG) Pipeline
+# 🦜🔗 RAG from Scratch & Advanced Agentic RAG
 
-## 1. Project Overview
+A comprehensive collection of Jupyter notebooks designed to take you from the fundamentals of Retrieval Augmented Generation (RAG) to building advanced, adaptive, and agentic RAG workflows using **LangChain** and **LangGraph**.
 
-This repository contains a **complete, end-to-end implementation of an Advanced Retrieval-Augmented Generation (RAG) pipeline**, covering every major component required to build **production-grade, retrieval-centric LLM systems**.
+## 📚 Overview
 
-The project is structured to mirror **real-world RAG system design**, including:
+This project serves as a progressive course. It begins with the building blocks of indexing and retrieval, moves into optimizing query understanding, and culminates in state-of-the-art agentic architectures like Self-RAG and Corrective RAG (CRAG) that can reason, reflect, and self-correct.
 
-* Query understanding and transformation
-* Intelligent routing across heterogeneous data stores
-* Advanced retrieval, ranking, and refinement strategies
-* Robust indexing and embedding architectures
-* Self-improving generation loops (Self-RAG, Active Retrieval)
+## 🚀 Notebooks
 
-The architecture implemented here directly corresponds to the **Advanced RAG Components diagram**, and each module is implemented as an independent, extensible unit.
+### **1. [Introduction to RAG](01_Introduction_To_RAG.ipynb)**
+This notebook establishes the foundational components of a RAG pipeline: Indexing, Retrieval, and Generation. It walks through loading data, creating embeddings, storing them in a vector database, and setting up a basic retrieval chain to answer user questions using specific context.
 
+### **2. [Query Transformation](02_Query_Transformation.ipynb)**
+Focuses on "Query Translation" techniques to bridge the gap between human language and what a retriever needs. It implements strategies like **Multi-Query** (generating varied perspectives of a question), **Decomposition** (breaking complex problems into sub-steps), and **Step-Back Prompting** to improve retrieval accuracy.
 
-![image](rag.png)
----
+### **3. [Routing to Datasource](03_Routing_to_Datasource.ipynb)**
+Implements logic to dynamically direct user queries to the most appropriate data source. It explores **Logical and Semantic Routing** to decide whether a query should be answered by a Vector Store (for specific domain knowledge) or a Web Search (for general or up-to-date information).
 
-## 2. Key Objectives
+### **4. [Indexing to VectorDB](04_Indexing_to_VectorDB.ipynb)**
+Covers advanced indexing strategies designed to handle complex documents and improve context preservation. It introduces **Multi-representation Indexing** (storing summaries while retrieving full text), **Parent Document Retrieval**, and **RAPTOR** (recursive tree summarization) to answer high-level questions better.
 
-* Build an **industry-aligned RAG architecture**, not a toy example
-* Demonstrate **deep understanding of retrieval systems**, not just LLM prompting
-* Support **multiple database paradigms** (Relational, Graph, Vector)
-* Enable **adaptive retrieval and self-correction** during generation
-* Provide a modular foundation for **scaling to enterprise use cases**
+### **5. [Retrieval Mechanisms](05_Retrieval_Mechanisms.ipynb)**
+Demonstrates how to refine the retrieval process to ensure the Language Model receives only the best data. It implements **Re-ranking** (using Cohere) to re-order retrieved documents by relevance and **Contextual Compression** to remove irrelevant noise from the context before generation.
 
----
+### **6. [Self-Reflection RAG](06_Self_Reflection_RAG.ipynb)**
+Builds a robust system inspired by the **Self-RAG** paper, where the model critiques its own work. It includes a "grader" mechanism that evaluates retrieved documents for relevance and checks the final generated answer for hallucinations, triggering a re-try if quality standards aren't met.
 
-## 3. High-Level Architecture
+### **7. [Agentic RAG](07_Agentic_Rag.ipynb)**
+Moves beyond linear chains to creating an autonomous **Retrieval Agent** using LangGraph. This notebook builds an agent that can decide *when* to retrieve information and *which* tools to use, allowing for dynamic, multi-step reasoning loops rather than a fixed sequence of events.
 
-The pipeline is divided into the following major stages:
+### **8. [Adaptive RAG Agent](08_Adaptive_Rag_Agent.ipynb)**
+Implements the **Adaptive RAG** strategy, which acts as a smart router for query complexity. The agent classifies queries (e.g., factual vs. analytical) and selects the most efficient execution path, chosing between direct answers, vector retrieval, or web search based on the specific need.
 
-1. **Query Construction**
-2. **Query Translation**
-3. **Routing**
-4. **Retrieval & Ranking**
-5. **Indexing Strategy**
-6. **Generation & Self-Improvement**
+### **9. [Corrective RAG Agent](09_Corrective_RAG_Agent.ipynb)**
+Constructs a **Corrective RAG (CRAG)** workflow designed to handle retrieval failures gracefully. If the system detects that retrieved documents are irrelevant or low-quality, it automatically falls back to a web search to supplement its knowledge and correct the generation.
 
-Each stage is described in detail below.
+### **10. [LLAMA 3 Local RAG](10_LLAMA_3_Rag_Agent_Local.ipynb)**
+A practical guide to implementing these advanced agentic patterns fully locally. It utilizes **Llama 3** (via Ollama) and local embeddings (Nomic) to build a private, cost-effective RAG agent that runs entirely on your own hardware without relying on external APIs.
 
 ---
 
-## 4. Query Construction Layer
+## 🛠️ Tech Stack
 
-This layer converts a raw user question into **structured queries** compatible with different data backends.
+- **Orchestration:** [LangChain](https://www.langchain.com/), [LangGraph](https://langchain-ai.github.io/langgraph/)
+- **LLMs:** Google Gemini (Gemini-1.5-Flash), Llama 3 (via Ollama)
+- **Vector Store:** ChromaDB
+- **Embeddings:** Google Generative AI Embeddings, Nomic Embeddings
+- **Search:** Tavily Search API
 
-### 4.1 Relational Databases
+## ⚡ Getting Started
 
-* **Text-to-SQL** translation
-* Supports SQL-based analytics and structured data retrieval
-* Compatible with PostgreSQL + pgvector setups
-
-### 4.2 Graph Databases
-
-* **Text-to-Cypher** translation
-* Enables relationship-aware retrieval
-* Suitable for knowledge graphs and entity-centric queries
-
-### 4.3 Vector Databases
-
-* **Self-Query Retriever**
-* Automatically generates metadata filters from the query
-* Improves precision over naive similarity search
-
----
-
-## 5. Query Translation Layer
-
-Before retrieval, the query is transformed into a form that maximizes recall and relevance.
-
-Implemented strategies include:
-
-* **Multi-Query Expansion** – generate multiple semantically equivalent queries
-* **RAG-Fusion** – merge and deduplicate results from multiple queries
-* **Decomposition** – break complex questions into sub-questions
-* **Step-Back Prompting** – retrieve higher-level context before details
-* **HyDE (Hypothetical Document Embeddings)** – generate hypothetical answers to improve embedding alignment
-
-**Goal:** Reduce retrieval failure caused by poorly phrased user questions.
-
----
-
-## 6. Routing Layer
-
-This layer decides **where and how** a query should be executed.
-
-### 6.1 Logical Routing
-
-* LLM selects the appropriate datastore (Graph / Relational / Vector)
-* Rule-free, reasoning-based routing
-
-### 6.2 Semantic Routing
-
-* Embed the query
-* Route to different prompts, tools, or pipelines based on similarity
-* Enables prompt specialization without hard-coded logic
-
----
-
-## 7. Retrieval & Ranking Layer
-
-Once documents are retrieved, they are refined using multiple relevance optimization strategies.
-
-### 7.1 Re-Ranking
-
-* Cross-encoder or LLM-based relevance scoring
-* RankGPT-style ranking
-* RAG-Fusion result consolidation
-
-### 7.2 Context Refinement (CRAG)
-
-* Compress retrieved documents
-* Filter low-signal content
-* Improve signal-to-noise ratio before generation
-
-### 7.3 Active Retrieval
-
-* Triggered when retrieved context is insufficient
-* Re-query existing stores or external sources (e.g., web)
-* Prevents hallucinations caused by missing context
-
----
-
-## 8. Indexing Strategy
-
-This project implements **multiple advanced indexing techniques** instead of naive chunking.
-
-### 8.1 Chunk Optimization
-
-* Semantic splitting instead of fixed-size chunks
-* Optimized chunk sizes for embedding quality
-
-### 8.2 Multi-Representation Indexing
-
-* Parent document + dense child representations
-* Summarized representations for faster recall
-
-### 8.3 Specialized Embeddings
-
-* Domain-specific fine-tuned embeddings
-* Support for ColBERT-style late interaction models
-
-### 8.4 Hierarchical Indexing (RAPTOR)
-
-* Tree-based document summarization
-* Retrieval at multiple abstraction levels
-* Improves performance on long documents
-
----
-
-## 9. Generation Layer
-
-The generation stage is **retrieval-aware and self-correcting**.
-
-### 9.1 Active Retrieval during Generation
-
-* Detects low-confidence generations
-* Triggers additional retrieval passes
-
-### 9.2 Self-RAG
-
-* Uses generation quality signals to guide re-retrieval
-* Improves factual grounding
-
-### 9.3 RRR (Retrieve–Read–Refine)
-
-* Iterative refinement loop
-* Produces concise, well-grounded answers
-
----
-
-
-## Key Takeaway
-
-> A strong RAG system is not built by a better prompt — it is built by **better retrieval, ranking, and feedback loops**.
+1. **Install Dependencies:**
+   ```bash
+   pip install langchain langchain-google-genai langchain-community tiktoken chromadb langgraph tavily-python
